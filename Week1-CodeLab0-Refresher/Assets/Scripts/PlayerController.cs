@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.UI;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
@@ -7,6 +8,7 @@ public class PlayerController : MonoBehaviour
 
     public float force = 5;
     Rigidbody2D rb;
+    public GameObject diamond;
 
     // Start is called before the first frame update
     void Start()
@@ -68,6 +70,11 @@ public class PlayerController : MonoBehaviour
                 rb.AddForce(Vector2.down * force);
             }
         }
+
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
 
     }
 }
