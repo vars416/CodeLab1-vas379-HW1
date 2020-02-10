@@ -191,6 +191,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   force: 5
+  diamond: {fileID: 0}
 --- !u!212 &10008027
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -381,7 +382,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 260, y: 180}
+  m_AnchoredPosition: {x: 160, y: 110}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &794895367
@@ -415,7 +416,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Blank
+  m_Text: 
 --- !u!222 &794895368
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1136,6 +1137,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 66e6a1477d599704b87a2a965c1d6238, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Score1: {fileID: 1884571449}
+  Score2: {fileID: 794895367}
+  ScoreValue1: 0
+  ScoreValue2: 0
 --- !u!212 &1729290887
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1260,7 +1265,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -260, y: 180}
+  m_AnchoredPosition: {x: -160, y: 110}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1884571449
@@ -1294,7 +1299,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Blank
+  m_Text: 
 --- !u!222 &1884571450
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1373,6 +1378,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   force: 5
+  diamond: {fileID: 0}
 --- !u!212 &2055901161
 SpriteRenderer:
   m_ObjectHideFlags: 0
